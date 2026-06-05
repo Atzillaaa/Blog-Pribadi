@@ -34,9 +34,18 @@ nav{
 }
 
 .logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
     font-size:24px;
     font-weight:bold;
     color:#2d3748;
+}
+
+.logo img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
 }
 
 nav ul{
@@ -145,13 +154,24 @@ nav ul{
 
 }
 </style>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Atzilla Official Journal</title>
+
+<link rel="icon" href="logo.png" type="image/png">
 </head>
 
 <body>
 
 <header>
 <nav>
-<div class="logo">Atzilla Official Journal</div>
+<div class="logo">
+    <img src="logo.png" alt="Atzilla Official Journal">
+    <span>Atzilla Official Journal</span>
+</div>
 
 <ul>
 <li><a href="#artikel">Artikel</a></li>

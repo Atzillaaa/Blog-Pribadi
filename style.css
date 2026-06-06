@@ -63,6 +63,18 @@ nav{
     display:block;
 }
 
+.logo span{
+    background:linear-gradient(
+        90deg,
+        #1e3a5f,
+        #2d3748,
+        #6b7280
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
 nav ul{
     display:flex;
     list-style:none;

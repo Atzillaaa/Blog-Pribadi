@@ -185,6 +185,23 @@ nav ul{
     font-size:32px;
 }
 
+.kritik-btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:14px 28px;
+    background:#1f3b5c;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.kritik-btn:hover{
+    background:#34567a;
+    transform:translateY(-2px);
+}
+    
 .back-btn{
     display:inline-block;
     margin-top:20px;

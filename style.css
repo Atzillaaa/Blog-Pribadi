@@ -144,6 +144,12 @@ nav a:hover{
     padding:30px;
 }
 
+.support-section{
+    text-align:center;
+    padding:50px 20px;
+    margin:40px 0;
+}
+    
 .contact{
     background:white;
     padding:40px;

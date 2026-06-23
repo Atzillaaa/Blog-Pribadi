@@ -187,12 +187,12 @@ nav ul{
 
 .kritik-btn{
     display:inline-block;
-    margin-top:90px;
+    margin-top:80px;
     padding:14px 28px;
     background:#1f3b5c;
     color:white;
     text-decoration:none;
-    border-radius:60px;
+    border-radius:30px;
     transition:0.3s;
     font-weight:bold;
 }
